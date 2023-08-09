@@ -1,2 +1,2 @@
 # music-full
-React web app for Overlaying of musics
+React web app for Overlaying of N music 
