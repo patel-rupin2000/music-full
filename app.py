@@ -4,7 +4,7 @@ from pymongo.mongo_client import MongoClient
 
 app = Flask(__name__)
 CORS(app)
-uri = "mongodb+srv://patelrupin63:Alka%401975@userdata.r7awmmw.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://<userName>:<password>@userdata.r7awmmw.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 # Send a ping to confirm a successful connection
