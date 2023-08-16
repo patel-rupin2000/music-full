@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 logger = logging.getLogger('HELLO WORLD')
 
-uri = "mongodb+srv://patelrupin63:Alka%401975@userdata.r7awmmw.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://<username>:<password>@userdata.r7awmmw.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 
