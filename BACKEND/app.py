@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, expose_headers='Authorization')
 logging.basicConfig(level=logging.INFO)
 
-logger = logging.getLogger('HELLO WORLD')
+logger = logging.getLogger('HELLO MUSICIX')
 
 uri = "mongodb+srv://<username>:<password>@userdata.r7awmmw.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
